@@ -1,0 +1,100 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background video {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content img {
+  width: 800px;
+}
+
+.form {
+  width: 410px;
+  height: 100%;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  margin: 15px 0;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+}
+.form-real {
+  width: 100%;
+}
+
+.form-real > * {
+  display: block;
+  text-align: center;
+}
+
+.checkbox input {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-real h1 {
+  color: #4ea4dc;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #4ea4dc;
+  text-align: center;
+}
+
+button {
+  margin-top: 20 px;
+  margin-bottom: 10px;
+  line-height: 32px;
+  padding: 0 0 px;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  /* border: 1 px solid #4ea4dc; */
+  border: hidden;
+  background-color: #4ea4dc;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  color: #4ea4dc;
+  border-bottom: none;
+  font-size: 14px;
+}
